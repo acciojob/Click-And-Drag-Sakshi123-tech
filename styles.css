@@ -3,6 +3,11 @@ html {
   background: url('https://source.unsplash.com/NFs6dRTBgaM/2000x2000') fixed;
   background-size: cover;
 }
+.items {
+    overflow-x: auto; /* Ensures horizontal scrolling */
+    white-space: nowrap; /* Prevents wrapping of child elements */
+}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
